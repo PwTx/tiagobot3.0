@@ -4,7 +4,7 @@ hijau="\033[1;32m"
 putih="\033[1;37m"
 biru="\033[0;34m"
 kuning="\033[1;33m"
-paku="darkzin"
+paku="lah opo"
 until [ "$pass" = "$paku" ]
 do
 clear
@@ -25,11 +25,11 @@ echo "     ____________"
 echo " ___| Ferramenta By __| " $putih
 echo "|  Dark Yt__|"
 echo "|__________| $merah"
-echo "                     _________________________"
-echo "                    | Ferramenta de login 1•  |"
-echo "                     ^^^^^^^^^^^^^^^^^^^^^^^^^"
-read -p "insira a senha da ferramenta : " pass
-echo "Checando senha, aguarde....."
+echo "                     _______________"
+echo "                    | Último login  |"
+echo "                     ^^^^^^^^^^^^^^^"
+read -p "insira a senha da ferramenta dnv pfv : " pass
+echo "Por favor espere um momento....."
 sleep 3
 done
 clear
@@ -52,7 +52,7 @@ echo "|  Dark Yt__|"
 echo "|__________|"
 echo "$hijau"
 echo "     ______         ______"
-echo "    |      | Darkbot |    |"
+echo "    |      | Darkbot |      |"
 echo "     |___________________|" $kuning
 echo " Nota : $putih Com esta ferramenta, você"
 echo "         pode fazer o bot Whatsapp facilmente,"
@@ -71,20 +71,29 @@ echo "Por favor espere um momento....."
 sleep 4
 clear
 sleep 2
-echo "          $merah   instalando o segundo login"
+echo "          $merah   instalando o darkbot"
 sleep 2
-git clone https://github.com/Darkziinh/SITEX
-git clone https://github.com/Darkziinh/apikey
-git clone https://github.com/Darkziinh/testek
-cd tiagobot3.0
-chmod +x git.sh
-echo "$verde"
-echo "Agora tem 2 etapas de senhas...."
-sleep 1
-echo "Faça login mais duas vezes!"
+cd $HOME
+pkg update && pkg upgrade
+pkg install git
+pkg install wget
+git clone https
+cd kp
+pkg install unzip
+pkg install nodejs
+pkg inatall ffmpeg
+pkg install tesseract
+unzip w.zip
+cd w
+bash install.sh
 sleep 2
-echo "carregando o login......"
-sleep 7
-sh git.sh
 echo ""
+echo "$verde"
+echo "depois disso, haverá um código qr...."
+sleep 1
+echo "Prepare 2 telefones celulares para suprimir o QR!!"
+sleep 2
+echo "carga......."
+sleep 7
+node index.js
 fi
